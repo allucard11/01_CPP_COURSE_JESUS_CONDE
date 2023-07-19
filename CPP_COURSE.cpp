@@ -1,9 +1,22 @@
 #include <iostream>
 
-int main(){
+using namespace std;
 
-    std::cout << "HOLA MUNDO!";
+bool lolo = 5;
 
-    return 0;
+int main() {
 
+  int x = 5;
+  int y = 7;
+
+  cout << endl;
+  cout << x + y << " " << x * y;
+  cout << endl;
+
+  if (lolo) {
+
+    cout << "Me gusta C++" << endl;
+  }
+
+  return 0;
 }
